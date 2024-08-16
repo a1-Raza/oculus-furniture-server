@@ -58,16 +58,23 @@ def get_models_json():
     
     return jsonify(folders_info)
 
-@app.route('/get/poc2/templates/bedroom')
-def get_poc2_template_bedroom():
+@app.route('/get/poc2/templates/<json_name>')
+def get_poc2_template_bedroom(json_name):
 
     # Define the path to the JSON file
-    json_file_path = os.path.join(os.getcwd(), 'poc2', 'templates', 'bedroom.json')
+    json_file_path = os.path.join(os.getcwd(), 'poc2', 'templates', json_name)
     
     # Read the JSON file
     with open(json_file_path, 'r') as json_file:
         data = json.load(json_file)
     
+    for item in data:
+        for model in item.get("valid_models", []):
+            filename = model["name"]
+            glb_files = [str(file) for file in os.listdir(os.path.join(os.getcwd(), 'glb', filename))]
+            model["files"] = glb_files
+
+
     # Return the data as a JSON response
     return jsonify(data)
 

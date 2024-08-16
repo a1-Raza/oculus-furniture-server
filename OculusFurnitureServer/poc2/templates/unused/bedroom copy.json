@@ -1,0 +1,133 @@
+[
+    {
+        "description" : "fullsize bed",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            } 
+        ]
+    },
+
+    {
+        "description" : "nightstand 1",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Ava_Regency_Nightstand",
+                "ids" : ["1846372", "7771009", "8010855"]
+            }
+        ]
+    },
+
+    {
+        "description" : "nightstand 2",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Ava_Regency_Nightstand",
+                "ids" : ["1846372", "7771009", "8010855"]
+            }
+        ]
+    },
+
+    {
+        "description" : "dresser",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            } 
+        ]
+    },
+
+    {
+        "description" : "seating 1",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Anywhere_Chair_Regular",
+                "ids" : ["1009704", "3283637", "3391259", "4269505", "5448578", "6876359", "6967608", "7232363", "8443590"]
+            },
+            {
+                "name" : "Anywhere_Chair_Regular_Ribbed_Chamois",
+                "ids" : ["5877419", "6965646", "8299987", "9966929"]
+            },
+            {
+                "name" : "Anywhere_Uph_Ottoman_Pouf",
+                "ids" : ["4283824"]
+            },
+            {
+                "name" : "Ayden_Slope_Slip_Chair_Swivel_Glider_Arm_PBT",
+                "ids" : ["516145", "1223980", "1363988", "1712735", "2432066", "3219543", "3777248", "4285329", "7043697", "7227316", "8114844", "8749168", "8847260", "9693327"]
+            }
+        ]
+    },
+
+    {
+        "description" : "seating 2",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Anywhere_Chair_Regular",
+                "ids" : ["1009704", "3283637", "3391259", "4269505", "5448578", "6876359", "6967608", "7232363", "8443590"]
+            },
+            {
+                "name" : "Anywhere_Chair_Regular_Ribbed_Chamois",
+                "ids" : ["5877419", "6965646", "8299987", "9966929"]
+            },
+            {
+                "name" : "Anywhere_Uph_Ottoman_Pouf",
+                "ids" : ["4283824"]
+            },
+            {
+                "name" : "Ayden_Slope_Slip_Chair_Swivel_Glider_Arm_PBT",
+                "ids" : ["516145", "1223980", "1363988", "1712735", "2432066", "3219543", "3777248", "4285329", "7043697", "7227316", "8114844", "8749168", "8847260", "9693327"]
+            }
+        ]
+    },
+
+    {
+        "description" : "miscellaneous",
+        "world_pos" : [5.5, 0, 2.5],
+        "euler_angles" : [0, 0.01, 0],
+        "valid_models" : [
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            },
+            {
+                "name" : "Acrylic idk",
+                "ids" : [123, 456, 789]
+            } 
+        ]
+    }
+]
