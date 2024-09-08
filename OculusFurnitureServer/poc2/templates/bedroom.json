@@ -89,7 +89,7 @@
 
     {
         "description" : "seating 1",
-        "world_pos" : [-2.25, 0, 0.75],
+        "world_pos" : [-3.25, 0, 2],
         "euler_angles" : [0, 125, 0],
         "valid_models" : [
             {
@@ -117,7 +117,7 @@
 
     {
         "description" : "seating 2",
-        "world_pos" : [-2.25, 0, -0.5],
+        "world_pos" : [-3.25, 0, 0],
         "euler_angles" : [0, 55, 0],
         "valid_models" : [
             {
@@ -144,12 +144,40 @@
     },
 
     {
+        "description" : "beanbag",
+        "world_pos" : [-2.25, 0, 1],
+        "euler_angles" : [0, 0, 0],
+        "valid_models" : [
+            {
+                "name" : "Anywhere_Beanbag_Regular_Ribbed_Chamois",
+                "files" : []
+            },
+            {
+                "name" : "Anywhere_Uph_Ottoman_Pouf",
+                "files" : []
+            }
+        ],
+        "default_model" : {
+            "name" : "Anywhere_Beanbag_Regular_Ribbed_Chamois",
+            "file" : "9160997.glb"
+        }
+    },
+
+    {
         "description" : "miscellaneous",
         "world_pos" : [2, 0, -0.25],
         "euler_angles" : [0, 0, 0],
         "valid_models" : [
             {
                 "name" : "Angled_Bookcase",
+                "files" : []
+            },
+            {
+                "name" : "Acrylic_Bookcase",
+                "files" : []
+            },
+            {
+                "name" : "Acrylic_Table_Nesting",
                 "files" : []
             }
         ],
