@@ -5,6 +5,7 @@ This Flask server is designed to allow the POC apps to download assets during ru
 This currently works with all POCs completed.
 
 This server can simply be run in a Python virtual environment, and will work automatically with the POC apps. 
+
 NOTE: You need to create a folder named "glb" in the same directory as "app.py", and include subfolders (with the name of the model) with the model's glb files inside. For example, if you have a folder "Leather_Sofa" with files "black_sofa.glb" and "brown_chair.glb".
 
 ### Features:
@@ -21,5 +22,5 @@ These will be JSON files stored in the "poc2/templates" folder. Each object in a
 
 You can take a look at bedroom.json in "poc2/templates" as an example. Note that for the name and files, they must match with the folder and file names inside the "glb" folder.
 
-### Current Status
+### Hiatus over soon
 This project has been on hiatus for a while, but I'll be picking it up again soon now that I'm on break!
