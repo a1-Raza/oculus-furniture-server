@@ -1,5 +1,6 @@
-# VR Furniture Shopping Experience Server / oculus-furniture-server
+# oculus-furniture-server
 
+## Welcome to the VR Furniture Shopping Experience Server!
 This Flask server is designed to allow the POC apps to download assets during runtime, get templates, etc. 
 This currently works with all POCs completed.
 
