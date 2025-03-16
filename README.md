@@ -21,6 +21,3 @@ These will be JSON files stored in the "poc2/templates" folder. Each object in a
 - "default_model" - the model that will show up when you first open the template in the POC app; it will have a "name" and a "file" (note that this should be set)
 
 You can take a look at bedroom.json in "poc2/templates" as an example. Note that for the name and files, they must match with the folder and file names inside the "glb" folder.
-
-### Hiatus over soon
-This project has been on hiatus for a while, but I'll be picking it up again soon now that I'm on break!
